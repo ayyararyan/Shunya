@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHUNYA | Zero Friction. Infinite Precision.</title>
+    <meta
+      name="description"
+      content="SHUNYA is an AI-native HFT infrastructure platform for quants, prop desks, and fintech teams."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="top-nav-wrap">
+      <div class="top-nav container glass">
+        <a class="logo" href="#home">SHUNYA <span lang="sa">शून्य</span></a>
+        <nav>
+          <a href="#dilemma">Dilemma</a>
+          <a href="#platform">Platform</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#founder">Founder</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">☾</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="orb orb-1" aria-hidden="true"></div>
+        <div class="orb orb-2" aria-hidden="true"></div>
+
+        <div class="container hero-content">
+          <figure class="hero-brand glass">
+            <img src="./assets/shunya-logo.svg" alt="SHUNYA logo" />
+          </figure>
+
+          <p class="kicker" lang="sa">शून्य · The Quant Operating Layer</p>
+          <h1>Zero friction. Infinite precision. Pure execution.</h1>
+          <p class="hero-subtitle">
+            A calm, AI-native execution stack for serious quants. Research,
+            simulate, and deploy microstructure-aware strategies with
+            institutional discipline.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#platform">Explore SHUNYA Platform</a>
+            <a class="btn ghost" href="./shunya_roadmap.pdf" target="_blank" rel="noreferrer">Read the Roadmap</a>
+          </div>
+
+          <div class="hero-metrics glass">
+            <article>
+              <p class="metric">18–24 Months → Hours</p>
+              <span>Build-to-deploy compression</span>
+            </article>
+            <article>
+              <p class="metric">7 Core Modules</p>
+              <span>Research, execution, risk, APIs</span>
+            </article>
+            <article>
+              <p class="metric">India-First</p>
+              <span>NSE/BSE microstructure-aware defaults</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="container section" id="dilemma">
+        <p class="section-kicker">Positioning</p>
+        <h2>The HFT Build Dilemma</h2>
+        <p class="section-lead">
+          Most teams either overbuild expensive infrastructure or settle for
+          generic tooling. SHUNYA is the third path: institutional depth without
+          institutional drag.
+        </p>
+
+        <div class="dilemma-grid">
+          <article class="panel risk">
+            <h3>Traditional Path</h3>
+            <ul>
+              <li>$500K–$2M infrastructure cost</li>
+              <li>10+ engineers for latency, data, and risk</li>
+              <li>18–24 months before production confidence</li>
+              <li>Exchange integration and compliance drag</li>
+            </ul>
+          </article>
+          <article class="panel advantage">
+            <h3>The SHUNYA Path</h3>
+            <ul>
+              <li>₹29K–₹3L/month, scale with usage</li>
+              <li>Modular building blocks for rapid deployment</li>
+              <li>India-first microstructure and risk defaults</li>
+              <li>Focus on alpha, not plumbing</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section" id="platform">
+        <p class="section-kicker">Architecture</p>
+        <h2>Seven Modules. One Platform. शून्य.</h2>
+        <div class="modules">
+          <details open>
+            <summary>Sūkṣma (सूक्ष्म) · Market Data Ingestion</summary>
+            <p>Sub-millisecond L2/L3 order book ingestion with liquidity filtering and deterministic replay APIs.</p>
+          </details>
+          <details>
+            <summary>Yukti (युक्ति) · Strategy Engine</summary>
+            <p>Deploy strategy logic through a Python SDK with tick-perfect backtest parity and portfolio-level controls.</p>
+          </details>
+          <details>
+            <summary>Tāraṅga (तरङ्ग) · Volatility Calibration</summary>
+            <p>Arbitrage-free IV surface calibration with eSSVI + HyperIV pipelines optimized for low-latency options pricing.</p>
+          </details>
+          <details>
+            <summary>Prāṇa (प्राण) · Smart Order Router</summary>
+            <p>Venue-aware routing and execution scheduling for liquidity-sensitive order flow under Indian market constraints.</p>
+          </details>
+          <details>
+            <summary>Rakṣā (रक्षा) · Risk & Compliance</summary>
+            <p>Real-time guardrails, position limits, kill switches, and exchange-compliant audit trails.</p>
+          </details>
+          <details>
+            <summary>Jñāna (ज्ञान) · Analytics & Backtesting</summary>
+            <p>Distributed simulation workflows with slippage attribution, walk-forward validation, and strategy diagnostics.</p>
+          </details>
+          <details>
+            <summary>Saṅgati (सङ्गति) · APIs & Integration</summary>
+            <p>REST + WebSocket APIs with clean schemas for agentic automation and external system integrations.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="container section edge">
+        <p class="section-kicker">Proprietary Research</p>
+        <h2>Microstructure IP You Won’t Find Elsewhere</h2>
+        <div class="cards">
+          <article>
+            <h3>DQRH</h3>
+            <p>A queue-hazard framework for order placement and cancellation behavior in stressed microstructure states.</p>
+          </article>
+          <article>
+            <h3>MDLT</h3>
+            <p>Liquidity-threshold modeling for better regime detection and robust execution in fragmented liquidity pockets.</p>
+          </article>
+          <article>
+            <h3>eSSVI + HyperIV</h3>
+            <p>Production-caliber volatility surfaces for options strategy deployment with low calibration overhead.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section" id="pricing">
+        <p class="section-kicker">Commercials</p>
+        <h2>Pricing That Scales With You</h2>
+        <div class="pricing-grid">
+          <article>
+            <h3>Researcher</h3>
+            <p class="price">₹29K/mo</p>
+            <p>Data replay, simulator, and strategy sandbox.</p>
+          </article>
+          <article>
+            <h3>Trader</h3>
+            <p class="price">₹79K/mo</p>
+            <p>Live connectors, risk guardrails, and execution analytics.</p>
+          </article>
+          <article>
+            <h3>Institutional</h3>
+            <p class="price">₹3L/mo</p>
+            <p>Multi-strategy orchestration and premium support.</p>
+          </article>
+          <article>
+            <h3>Enterprise</h3>
+            <p class="price">Custom</p>
+            <p>White-label deployments, custom connectors, dedicated SLAs.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section founder" id="founder">
+        <p class="section-kicker">Founder Note</p>
+        <h2>Built by a Quant, for Quants</h2>
+        <p>
+          SHUNYA was born from one repeated observation: brilliant quants lose
+          months building infrastructure before validating ideas. By combining
+          finance research, market microstructure depth, and AI-native product
+          workflows, SHUNYA gives teams a direct path from hypothesis to live
+          deployment.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="https://www.linkedin.com" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
+          <a class="btn ghost" href="https://medium.com" target="_blank" rel="noreferrer">Read Research</a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="container footer-grid">
+        <div>
+          <h4>Product</h4>
+          <a href="#platform">Modules</a>
+          <a href="#pricing">Pricing</a>
+          <a href="./shunya_roadmap.pdf">Roadmap PDF</a>
+        </div>
+        <div>
+          <h4>Research</h4>
+          <a href="./If you see today the amount of progress that has b.md">Foundational Notes</a>
+          <a href="#founder">Founder Story</a>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <a href="mailto:hello@aryanayyar.com">hello@aryanayyar.com</a>
+          <a href="https://www.aryanayyar.com" target="_blank" rel="noreferrer">aryanayyar.com</a>
+        </div>
+      </div>
+      <p class="copyright">© 2026 SHUNYA. Zero friction. Infinite precision.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
