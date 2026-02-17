@@ -1,0 +1,18 @@
+underlyings: ["NIFTY", "BANKNIFTY", "FINNIFTY"]
+exchange: "NFO"
+venue_label: "NSE-FO"
+sampling_interval_seconds: 1
+timezone: "Asia/Kolkata"
+output_dir: "archive/option_chain"
+log_dir: "logs/zerodha"
+instrument_dump_dir: "archive/instruments"
+expiries_mode: "nearest"   # nearest | weekly | monthly | explicit_list
+expiry_list: []            # used when expiries_mode=explicit_list
+max_strike_distance: 2500  # points around ATM
+strike_step_overrides:
+  NIFTY: 50
+  BANKNIFTY: 100
+  FINNIFTY: 50
+flush_rows_per_write: 500
+reconnect_max_tries: 50
+reconnect_max_delay: 30

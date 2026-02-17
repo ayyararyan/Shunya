@@ -1,0 +1,19 @@
+# macOS / editor
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Secrets / local auth
+.env
+.kite_token.json
+
+# Large local data artifacts
+archive/
+results/
+logs/
+data_structures/*.csv

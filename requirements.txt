@@ -1,0 +1,14 @@
+# Zerodha Kite Connect Option Chain Streamer Dependencies
+
+# Kite Connect SDK
+kiteconnect>=5.0.0
+
+# Data handling
+pandas>=2.0.0
+
+# Environment and config
+python-dotenv>=1.0.0
+PyYAML>=6.0
+
+# Timezone handling
+pytz>=2024.1
